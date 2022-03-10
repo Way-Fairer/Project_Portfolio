@@ -1,3 +1,12 @@
+/*
+
+Covid 19 Data Exploration using SQL
+
+Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, 
+Creating Views, and Converting Data Types using MySQL
+
+*/
+
 SELECT *
 FROM COVID_Portfolio.covid_deaths
 WHERE continent IS NOT NULL
