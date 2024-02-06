@@ -1,3 +1,6 @@
+-- Source:
+-- 4 Excel sheets named "test", "result", "sample", and "location" that provide environmental data on superfund site. Excel sheets imported into SSMS as separate databases.
+
 -- Tasks:
 -- Write a SQL query that brings together the four data tables provided into a single flat file that could be used for data analysis. 
   -- Include a result column that contains a numeric value for all records. Non-detected results (detect_flag = N) should be presented as the quantitation limit.
